@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="log.html">
+      <div id="container">
+        <div>
+          <h2 class="head">Registration Form</h2>
+          <hr />
+        </div>
+        <div>
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            class="fname"
+            id="fname"
+            placeholder="Enter your First name"
+            required
+          />
+        </div>
+        <div>
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="Enter your Last name"
+            required
+          />
+        </div>
+        <div>
+          <label for="pnumber">Phone Number</label>
+          <input
+            type="number"
+            name="pnumber"
+            id="pnumber"
+            placeholder="Phonenumber"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            class="main"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div>
+          <label for="Gender">Gender</label>
+          <select placeholder="gender" name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div>
+          <label for="color"> Color</label>
+          <input class="fcolor" type="color" name="color" id="color" required />
+        </div>
+        <div>
+          <a href="log.html">
+            <input type="button" value="Register" class="submitbtn" />
+          </a>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

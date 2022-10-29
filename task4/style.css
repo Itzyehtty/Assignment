@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 15px;
+    background-color: black;
+    font-family: "Big Shoulders Display", cursive;
+  }
+  .first-container {
+    background-color: hsl(0, 0%, 95%);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+    align-items: center;
+    height: 100vh;}
+  
+  
+  .sedan-container {
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 20%;
+    border-radius: 5px 0 0 5px;
+  }
+  .sedan-container h1 {
+    margin: 10px 0 10px 0;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 5px;
+  }
+  .sedan-container p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+  }
+  .sedan-container button {
+    color: hsl(31, 77%, 52%);
+  }
+  .suv-container {
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 20%;
+  }
+  .suv-container h1 {
+    margin: 10px 0 10px 0;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 5px;
+  }
+  .suv-container p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+  }
+  
+  .suv-container button {
+    color: hsl(184, 100%, 22%);
+  }
+  .luxury-container {
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 20%;
+    border-radius: 0px 5px 5px 0;
+  }
+  .luxury-container h1 {
+    margin: 10px 0 10px 0;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 5px;
+  }
+  .luxury-container p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+  }
+  .luxury-container button {
+    color: hsl(179, 100%, 13%);
+  }
+  
+  button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  
+  
+  
